@@ -104,7 +104,6 @@ s = "Hi"
 print(s.center(6, "$"))
 print(s.ljust(6, "-"))
 print(s.rjust(6, "-"))
-
 print("42".zfill(10))
 
 name = "Ram"
@@ -112,10 +111,8 @@ age = 21
 
 print("Name is {} and age is {}".format(name, age))
 print("Name is {} and age is {}".format(age, name))
-
 print("Name is {name} and age is {age}".format_map({"name": name, "age": age}))
 print(f"Name is {name} and age is {age}")
-
 print(len("mississippi"))
 
 print("My name is %s and I am %d years old." % (name, age))
@@ -127,11 +124,9 @@ print("\\Hello\\")
 print("\107")
 print("\x4f")
 
-
 a = [1, 2, 3]
 b = a
 c = [1, 2, 3]
-
 print(a is b)  # True (same object in memory)
 print(a is c)  # False (different objects)
 
