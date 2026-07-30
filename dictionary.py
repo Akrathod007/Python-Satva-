@@ -88,7 +88,7 @@ print(student)
 print(len(scoreBoard))
 
 """
-
+"""
 scoreBoard = {
     "Virat": [98, 67, 84],
     "Dhoni": [56, 89, 94],
@@ -119,3 +119,27 @@ for i in scoreBoard.keys():
     finalTotal = finalTotal + total
 
 print("Final Total :", finalTotal)
+
+
+"""
+
+person = {"Name": "Raj", "Age": 21}
+print(person)
+
+rank = {1: "Raj", 2: "Ram", 3: "Manan"}
+print(rank)
+
+x = {(1, 2): "Hello", (3, 4): "Bye"}
+print(x)
+
+# y = {[1, 2]: "Hello"}
+# print(y)
+
+marks = {
+    "Ram": {"Maths": 98, "Science": 87, "Arts": 91},
+    "Shyam": {"Maths": 78, "Science": 97, "Arts": 81},
+    "Raj": {"Maths": 88, "Science": 77, "Arts": 71},
+}
+
+print(marks)
+print(marks.get("Shyam").get("Science"))
