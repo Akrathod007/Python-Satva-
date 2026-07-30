@@ -143,3 +143,69 @@ marks = {
 
 print(marks)
 print(marks.get("Shyam").get("Science"))
+
+
+"""
+1. Count Frequency of Words
+sentence = "python is easy python is powerful"
+
+data = {
+    "python":2,
+    "is":2,
+    "easy":1,
+    "powerful":1
+}
+
+2. Create Dictionary of Number and Cube
+N = 10
+data = {
+    1:1,
+    2:8,
+    3:27
+}
+
+3. Swap Keys and Values
+data = {"a": 1,"b": 2, "c": 3}
+new_data = {1:"a",2:"b",3:"c"}
+
+4. Create Dictionary From String Length
+words = ["python", "java", "ai"]
+
+data = {
+    "python":6,
+    "Java":4,
+    "ai":2
+}
+
+5. Count Vowels in Sentence
+sentence = "python programming"
+data = {
+    "a":
+}
+
+6. Create Dictionary of Factorials
+N = 10
+data = {
+    1:1,
+    2:2,
+    3:6,
+    4:24
+}
+
+7. Group Numbers by Positive and Negative
+numbers = [10, -5, 7, -2, 0]
+
+data = {
+    "positive": [],
+    "negative": [],
+    "zero": []
+}
+
+8. Separate Even and Odd Numbers
+numbers = [1, 2, 3, 4, 5, 6]
+
+data = {
+    "even": [],
+    "odd": []
+}
+"""
