@@ -65,6 +65,7 @@ Collection of Python :
 #     print(i, "->", li[i])
 #     i += 1
 
+"""
 
 li = [1, 2, 3, 4, 5, 6, 7, 8, 5, 9, 10]
 print(li)
@@ -115,3 +116,81 @@ print(li)
 print(sum(li))
 print(max(li))
 print(min(li))
+
+"""
+
+# a = [1, 2, 3, 4]
+# b = a
+# c = a.copy()
+# d = a[:]
+# print(a)
+# print(b)
+# print(c)
+# print(d)
+
+# b[2] = 200
+# c[1] = 1000
+# d[3] = 3000
+# print(a)
+# print(b)
+# print(c)
+# print(d)
+
+# count = int(input("Enter a number of element you want : "))
+# li = []
+
+# for i in range(1, count + 1):
+#     n = int(input("Enter a element you want to add in list : "))
+#     li.append(n)
+
+# print(li)
+
+# create even and odd list from given list of numbers :
+# li = [23,45,66,88,76,45,34,21,56]
+
+# create pos, neg and zero list from given list of numbers :
+# li = [-34,67,89,-12,-4,0,0,-67,12]
+
+
+"""
+l1 = [1,2,3,4]
+l2 = [3,4,5,6]
+
+1. l3 = [1,2,3,4,3,4,5,6]
+
+2. common = [3,4]
+
+3. unique = [1,2,5,6]
+"""
+
+li = [[1, 2, 3], [4, 5, 6], [6, 7, 8]]
+
+print(li)
+print(len(li))
+print(li[2])
+print(li[2][2])
+print(li[2][0:2])
+print(li[0:3][1:3])
+
+for i in range(0, len(li)):
+    print(i, "->", li[i])
+    for j in range(0, len(li[i])):
+        print(j, "->", li[i][j])
+
+for i in li:
+    for j in i:
+        print(j)
+
+"""
+r and c
+
+r = 2
+c = 2
+
+45 67 89 23
+
+[
+    [45,67],
+    [89,23]
+]
+"""
